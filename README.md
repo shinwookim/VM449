@@ -14,7 +14,10 @@ However, in case you have trouble developing on the server (due to a maintenance
 Virtual machines run inside some other program, which runs on the host computer (your laptop or desktop). There are many programs such as [Virtual Box](https://www.virtualbox.org/) or [VM Ware](https://www.vmware.com/) that can be used to create virtual machines. This document, however, will use [QEMU](https://www.qemu.org/), which is a free and open-source software since it is compatible with most systems regardless of the underlying hardware and OS.
 
 #### For Everyone
-1. Create a folder/directory where you want to store your virtual machine.
+1. Move into the directory where you want to store the VM and clone this directory. You can clone this directory by running the following command:
+	```sh
+	git clone https://github.com/shinwookim/VM449
+	```
 2. Download the '**server install image**' for Ubuntu 22.04.2 LTS (Jammy Jellyfish) at https://mirror.cs.pitt.edu/ubuntu/releases/22.04/ and store it in the VM directory (created in step 1).
 3. Install QEMU by following the steps below
 
