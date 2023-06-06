@@ -1,3 +1,7 @@
+<p align="center">
+	This repository has been archived. Please see the actively maintained version on the <a href="https://gitlab.com/cs0449/VM449">CS 449 GitLab Page</a>.
+</p>
+
 # VM 449: Using Virtual Machines for CS 449
 
 ## Overview
